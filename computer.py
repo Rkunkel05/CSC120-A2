@@ -10,10 +10,6 @@ class Computer:
     year_made: int
     price: int
     # How will you set up your constructor?
-    # - Want to retain a description for each computer 
-    # - Be able to keep track of the OS and update it
-    # - Keep track of the memory and update it
-    # - Keep track of the price and update it when the computer is refurbished 
 
     # Remember: in python, all constructors have the same name (__init__)
     def __init__(self, description: str,
@@ -32,8 +28,9 @@ class Computer:
         self.price = price 
         
     # What methods will you need?
-def main():
-    my_computer = Computer("Macbook Air","Intel","250GB","16GB","Sierra","2019","$900")
-    print(my_computer)
-
-main()
+    # Doing operations on an object that already exists - Updating OS, updating price, refurbishing
+        
+    def refurbish():
+        pass
+    
+        
