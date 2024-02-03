@@ -1,3 +1,4 @@
+from oo_resale_shop import *
 class Computer:
     # What attributes will it need?
     # Any computer is going to need these attributes - Somewhere to store the description, price, etc.
@@ -22,6 +23,7 @@ class Computer:
         # self.[blank] sort of groups it all together; i.e. here self.description is referring to the specific description that belogns to yourself
         self.description = description
         self.processor_type = processor_type
+        self.hard_drive_capacity = hard_drive_capacity
         self.memory = memory
         self.operating_system = operating_system
         self.year_made = year_made
@@ -29,8 +31,7 @@ class Computer:
         
     # What methods will you need?
     # Doing operations on an object that already exists - Updating OS, updating price, refurbishing
-        
-    def refurbish():
-        pass
+
+    
     
         
